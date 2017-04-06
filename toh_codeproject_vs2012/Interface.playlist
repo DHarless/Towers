@@ -1,0 +1,1 @@
+<Playlist Version="1.0"><Add Test="UnitTestProject1.UnitTest1.inValidMove" /><Add Test="UnitTestProject1.UnitTest1.startPositions" /><Add Test="UnitTestProject1.UnitTest1.startPositionsMultipleDisks" /><Add Test="UnitTestProject1.UnitTest1.moveFromEmptyPole" /><Add Test="UnitTestProject1.UnitTest1.tooManyDisks" /><Add Test="UnitTestProject1.UnitTest1.validMove" /></Playlist>

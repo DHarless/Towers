@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Drawing;
 
 namespace UnitTestProject1
-    {
+{
     [TestClass]
     public class UnitTest1
     {
@@ -20,7 +20,7 @@ namespace UnitTestProject1
 
         [TestMethod]
         [TestCategory("Moving")]
-        public void TestMoves3()
+        public void testMoves3()
         {
             //Assert that each move in the solution exists
             Assert.AreEqual(new Move(pole0, pole2), ThreeMoves[0]);
@@ -34,7 +34,7 @@ namespace UnitTestProject1
 
         [TestMethod]
         [TestCategory("Moving")]
-        public void TestMoves1()
+        public void testMoves1()
         {
             //Assert that each move is different
             Assert.AreEqual(new Move(pole0, pole2), OneMoves[0]);
